@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJFShowHudLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Swift或者Objective-C下使用的toast小组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZJFShowHudLabel/Classes/**/*'
+  s.source_files = 'ZJFShowHudLabel'
   
   # s.resource_bundles = {
   #   'ZJFShowHudLabel' => ['ZJFShowHudLabel/Assets/*.png']
