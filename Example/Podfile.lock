@@ -1,16 +1,16 @@
 PODS:
-  - ZJFShowHudLabel (0.1.0)
+  - ZJFShowHudLabel (0.1.2)
 
 DEPENDENCIES:
-  - ZJFShowHudLabel (from `../`)
+  - ZJFShowHudLabel
 
-EXTERNAL SOURCES:
-  ZJFShowHudLabel:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZJFShowHudLabel
 
 SPEC CHECKSUMS:
-  ZJFShowHudLabel: 87e0d319454c320035af0c94d57808746517ac86
+  ZJFShowHudLabel: 2f55042051a5c88a45fb18f536b8ebbaa212222e
 
-PODFILE CHECKSUM: 4cef21b25b7eac4cb7aa4bcb1fdd1bb091c55a0e
+PODFILE CHECKSUM: c39daf46eb1b061147d47ff064a93dfc511eac14
 
 COCOAPODS: 1.7.5

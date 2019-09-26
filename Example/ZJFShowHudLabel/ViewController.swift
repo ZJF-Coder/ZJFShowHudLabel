@@ -12,7 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = UIColor.white
+        
+        let btn = UIButton.init(frame: CGRect.init(x: 10, y: 100, width: 40, height: 20))
+        btn.backgroundColor = UIColor.red
+        btn.addTarget(self, action: #selector(btnDidClick), for: UIControlEvents.touchUpInside)
+        self.view.addSubview(btn)
+        
+    }
+    
+    @objc func btnDidClick() {
+        ZJFShowHudLabel.shareHud()?.showInfo("测试", withTopY: 0, onDuration: 3)
     }
 
     override func didReceiveMemoryWarning() {
