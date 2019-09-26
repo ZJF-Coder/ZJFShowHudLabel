@@ -1,0 +1,16 @@
+PODS:
+  - ZJFShowHudLabel (0.1.0)
+
+DEPENDENCIES:
+  - ZJFShowHudLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ZJFShowHudLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJFShowHudLabel: 87e0d319454c320035af0c94d57808746517ac86
+
+PODFILE CHECKSUM: 4cef21b25b7eac4cb7aa4bcb1fdd1bb091c55a0e
+
+COCOAPODS: 1.7.5
