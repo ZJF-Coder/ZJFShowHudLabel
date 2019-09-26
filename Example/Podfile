@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJFShowHudLabel_Example' do
+  pod 'ZJFShowHudLabel', :path => '../'
+
+  target 'ZJFShowHudLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
