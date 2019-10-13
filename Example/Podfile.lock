@@ -1,16 +1,25 @@
 PODS:
+  - SnapKit (4.2.0)
+  - ZJFPopTableView (1.0.2):
+    - SnapKit
   - ZJFShowHudLabel (0.1.2)
 
 DEPENDENCIES:
+  - ZJFPopTableView (= 1.0.2)
   - ZJFShowHudLabel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - SnapKit
     - ZJFShowHudLabel
+  https://github.com/ZJF-Coder/ZJFPopTable.git:
+    - ZJFPopTableView
 
 SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  ZJFPopTableView: a46274cbdede43ee4cfddba22c0b5217224d6c83
   ZJFShowHudLabel: 2f55042051a5c88a45fb18f536b8ebbaa212222e
 
-PODFILE CHECKSUM: c39daf46eb1b061147d47ff064a93dfc511eac14
+PODFILE CHECKSUM: dd919791f76bf89affbe5f1be01d35d251f9bf74
 
 COCOAPODS: 1.7.5

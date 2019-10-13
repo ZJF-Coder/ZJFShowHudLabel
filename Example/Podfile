@@ -1,7 +1,12 @@
+
+source 'https://github.com/ZJF-Coder/ZJFPopTable.git'# 私有仓库（存放podsepc文件的仓库）git地址
+source 'https://github.com/CocoaPods/Specs.git' # cocoapods 公用仓库地址
+
 use_frameworks!
 
 target 'ZJFShowHudLabel_Example' do
   pod 'ZJFShowHudLabel'
+  pod 'ZJFPopTableView', '1.0.2'
 
   target 'ZJFShowHudLabel_Tests' do
     inherit! :search_paths

@@ -272,10 +272,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZJFShowHudLabel_Example/Pods-ZJFShowHudLabel_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJFPopTableView/ZJFPopTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/ZJFShowHudLabel/ZJFShowHudLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJFPopTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJFShowHudLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
